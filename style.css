@@ -1,6 +1,7 @@
-html
+html, body
 {
-	overflow-x: hidden
+  overflow-x: hidden;
+  max-width: 100vw;
 }
 
 a:visited
@@ -146,7 +147,7 @@ nav a
 
 
 
-.gif
+/* .gif
 {
    position: absolute;
    z-index: 25;
@@ -155,7 +156,7 @@ nav a
    min-width:35%;
   min-height:60%;
 }
-
+ 
 .gif2
 {
    position: absolute;
@@ -165,12 +166,32 @@ nav a
    top: 300px;
    min-width:35%;
   min-height:60%;
+}  */
+
+.gif
+{
+  position: absolute;
+  z-index: 25;
+  left: -100px;
+  top: 300px; 
+  min-width:35%;
+  min-height:60%;
+}
+
+.gif2
+{
+  position: absolute;
+  z-index: 25;
+  right: -100px;
+  top: 300px; 
+  min-width:35%;
+  min-height:60%;
 }
 
 
 
 
-.videoo
+videoo
 {
 
   position: absolute;
@@ -224,9 +245,6 @@ article
 
   padding-top: 10px;
 
-  
-
-  
 }
 
 .foot
@@ -274,4 +292,57 @@ article
     text-align: center;
     margin: auto;
   }
+  iframe
+  {
+    width: 80%;
+  }
+  video 
+  {
+    height: 130vh;
+  }
+  .page22 
+  {
+    font-size: 15px;
+    letter-spacing: 5px;
+  }
+  .logo
+  {
+    width: 40px;
+  }
+  .ee
+  {
+    top: 200px;
+  }
+  .dd
+  {
+    top: 400px;
+  }
+  .cc
+  {
+    top: 600px;
+  }
+  .aa
+  {
+    top: 800px;
+  }
+}
+
+@media screen and (max-width: 320px)
+{
+  ol
+  {
+      padding-left: 0px;
+      font-size: 12px;
+  }
+  .logo
+  {
+    width: 0px;
+  }
+}
+
+
+.page22
+{
+  padding-left: 85px;
+  
 }
